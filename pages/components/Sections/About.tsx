@@ -13,11 +13,6 @@ const About = () => {
               skills with extensive research to create an app that addresses
               diverse health needs.
             </p>
-            <p className="text-gray-300">
-              As computer engineering students, we recognized the gap in digital
-              health solutions tailored for the Nepali population and decided to
-              build a comprehensive solution.
-            </p>
           </div>
           <div className="bg-gradient-to-br from-rose-900 to-pink-800 rounded-2xl p-6 h-80 flex items-center justify-center">
             <div className="text-center">

@@ -207,6 +207,14 @@ const Header = () => {
               >
                 Screenshots
               </button>
+              {/* Add Privacy Policy link to mobile menu */}
+              <Link
+                href="/privacy"
+                className="block px-3 py-2 text-gray-300 hover:text-rose-500 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Privacy Policy
+              </Link>
               <a
                 href="https://play.google.com/store/apps/details?id=com.jachao.app"
                 className="block px-3 py-2 text-rose-500 font-medium"
