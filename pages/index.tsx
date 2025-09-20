@@ -16,7 +16,7 @@ export default function Home() {
           name="description"
           content="Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools."
         />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <Header />
