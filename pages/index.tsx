@@ -14,7 +14,7 @@ export default function Home() {
         <title>Jachao — Nepal's Health App</title>
         <meta
           name="description"
-          content="AI-powered symptom diagnosis, lab report analysis, period tracking and mental health tools built by two Nepali students."
+          content="Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
