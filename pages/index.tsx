@@ -16,7 +16,50 @@ export default function Home() {
           name="description"
           content="Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools."
         />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.jachaoo.com/" />
+        <meta property="og:title" content="Jachao — Nepal's Health App" />
+        <meta
+          property="og:description"
+          content="Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools."
+        />
+        <meta
+          property="og:image"
+          content="https://www.jachaoo.com/android-icon-192x192.png"
+        />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:url" content="https://www.jachaoo.com/" />
+        <meta property="twitter:title" content="Jachao — Nepal's Health App" />
+        <meta
+          property="twitter:description"
+          content="Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.jachaoo.com/android-icon-192x192.png"
+        />
+
+        {/* Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "Jachao — Nepal's Health App",
+              url: "https://www.jachaoo.com/",
+              logo: "https://www.jachaoo.com/android-icon-192x192.png",
+              description:
+                "Your pocket health assistant: AI symptom checker, lab report analysis, period tracking, first-aid guidance, and mental health tools.",
+              applicationCategory: "HealthApplication",
+              operatingSystem: "Android",
+            }),
+          }}
+        />
       </Head>
 
       <Header />
