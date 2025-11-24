@@ -43,8 +43,10 @@ const PrivacyPolicy = () => {
               </li>
               <li className="mb-2">
                 <strong>Health Information:</strong> Menstrual cycle details,
-                symptoms, reproductive health-related data, and other wellness
-                information you provide.
+                symptoms, reproductive health-related data, weight, chronic
+                illness information you choose to provide (such as thyroid,
+                diabetes, asthma, or others), and other wellness information you
+                voluntarily share.
               </li>
               <li className="mb-2">
                 <strong>App Usage Data:</strong> Interactions with the app,
@@ -76,6 +78,13 @@ const PrivacyPolicy = () => {
                 To provide core features of the Jachao app, including health
                 tracking and personalized insights.
               </li>
+
+              <li className="mb-2">
+                To personalize health insights, predictions, and recommendations
+                based on your weight and any chronic illness information you
+                provide.
+              </li>
+
               <li className="mb-2">
                 To improve app functionality, performance, and user experience.
               </li>
@@ -139,6 +148,11 @@ const PrivacyPolicy = () => {
                 While we strive to safeguard your information, no method of
                 electronic storage is 100% secure, and we cannot guarantee
                 absolute security.
+              </li>
+              <li className="mb-2">
+                Weight data and chronic illness details are treated as sensitive
+                health information and are protected using industry-standard
+                security measures.
               </li>
               <li className="mb-2">
                 <strong>Medical Report Storage:</strong> Any lab report photos
