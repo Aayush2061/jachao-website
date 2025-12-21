@@ -2,7 +2,7 @@ const Features = () => {
   const features = [
     {
       title: "Symptom Diagnosis",
-      desc: "Enter your symptoms and get AI-powered insights with 3 possible health conditions and next steps using Gemini model.",
+      desc: "Enter your symptoms and get AI-powered health insights with 3 possible conditions and suggested next steps.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ const Features = () => {
     },
     {
       title: "Mental Health Tools",
-      desc: "Sleep audios, herbal remedies, rituals, and checklists for better rest and mental wellness.",
+      desc: "Track your mood, improve sleep, chat with a supportive AI, and build positive habits through simple daily activities.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
