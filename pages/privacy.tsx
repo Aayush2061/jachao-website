@@ -17,9 +17,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
             Privacy Policy – Jachao
           </h1>
-          <p className="text-gray-600 mb-8">
-            Effective Date: September 12, 2025
-          </p>
+          <p className="text-gray-600 mb-8">Effective Date: January 17, 2026</p>
 
           <div className="prose prose-lg max-w-none">
             <p className="mb-6">
@@ -65,6 +63,12 @@ const PrivacyPolicy = () => {
                 background; it is only used when you actively choose to capture
                 a photo.
               </li>
+              <li className="mb-2">
+                <strong>Mental Health Assessment Responses:</strong> When you
+                voluntarily use our mental health self-assessment tools, we
+                temporarily process your responses to generate your assessment
+                results.
+              </li>
             </ul>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
@@ -99,6 +103,10 @@ const PrivacyPolicy = () => {
               <li className="mb-2">
                 To comply with applicable legal, regulatory, or health-related
                 requirements.
+              </li>
+              <li className="mb-2">
+                To provide mental health self-assessment tools and generate your
+                assessment results.
               </li>
             </ul>
 
@@ -165,6 +173,13 @@ const PrivacyPolicy = () => {
                 recovered. We do not use your uploaded medical reports or
                 analysis results for advertising, profiling, or training AI
                 models outside of providing you with your requested analysis.
+              </li>
+              <li className="mb-2">
+                <strong>Mental Health Assessments:</strong> Mental health
+                assessment responses are processed locally on your device and
+                are not stored on our servers. Your responses exist only
+                temporarily during your assessment session and are automatically
+                cleared when you exit the assessment.
               </li>
             </ul>
 
@@ -251,9 +266,20 @@ const PrivacyPolicy = () => {
               diagnosis, or treatment. Always consult a qualified healthcare
               provider for concerns about your health.
             </p>
+            <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
+              10. Mental Health Assessments Disclaimer
+            </h2>
+            <p className="mb-6">
+              Our mental health self-assessment tools are for informational
+              purposes only and are not a substitute for professional medical
+              advice, diagnosis, or treatment. Assessment results are generated
+              based on your self-reported responses and should not be considered
+              diagnostic. Please consult a qualified healthcare professional for
+              any mental health concerns.
+            </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              10. Changes to This Privacy Policy
+              11. Changes to This Privacy Policy
             </h2>
             <p className="mb-6">
               We may update this Privacy Policy from time to time. Any
@@ -262,7 +288,7 @@ const PrivacyPolicy = () => {
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              11. Contact Us
+              12. Contact Us
             </h2>
             <p className="mb-2">
               If you have any questions, concerns, or requests regarding this
