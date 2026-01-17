@@ -88,22 +88,38 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <p>© {new Date().getFullYear()} Jachao</p>
-            <a 
-              href="https://dang.ai/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" 
-                alt="Dang.ai" 
-                className="w-28 h-auto" // ← 112px wide, auto height
-              />
-            </a>
-          </div>
+  <p>© {new Date().getFullYear()} Jachao</p>
+  
+  {/* Dang.ai Badge */}
+  <a 
+    href="https://dang.ai/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:opacity-80 transition-opacity"
+    >
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img 
+      src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" 
+      alt="Dang.ai" 
+      className="w-28 h-auto"
+    />
+  </a>
+  
+  {/* Startups Lab Badge */}
+  <a 
+    href="https://startupslab.site" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:opacity-80 transition-opacity"
+    >
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img 
+      src="https://cdn.startupslab.site/site-images/badge-light.png" 
+      alt="Featured on Startups Lab" 
+      className="w-28 h-auto"
+    />
+  </a>
+</div>
         </div>
       </div>
     </footer>
