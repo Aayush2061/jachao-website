@@ -119,7 +119,21 @@ const Footer = () => {
       className="w-28 h-auto"
     />
   </a>
-</div>
+   {/* Twelve Tools Badge */}
+    <a 
+      href="https://twelve.tools" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="hover:opacity-80 transition-opacity"
+      >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img 
+        src="https://twelve.tools/badge0-white.svg" 
+        alt="Featured on Twelve Tools" 
+        className="w-28 h-auto"
+      />
+    </a>
+      </div>
         </div>
       </div>
     </footer>
